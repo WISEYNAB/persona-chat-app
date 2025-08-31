@@ -18,7 +18,7 @@ target/
 Thumbs.db
 
 # Application properties (contains secrets)
-src/main/resources/application.properties.template
+src/main/resources/application.properties
 src/main/resources/application-*.properties
 
 # Environment files
@@ -29,5 +29,3 @@ src/main/resources/application-*.properties
 *.log
 logs/
 
-# Maven
-.mvn/wrapper/maven-wrapper.jar
