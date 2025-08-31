@@ -18,8 +18,8 @@ target/
 Thumbs.db
 
 # Application properties (contains secrets)
-src/main/resources/application.properties
-src/main/resources/application-*.properties
+../src/main/resources/application.properties
+../src/main/resources/application-*.properties
 
 # Environment files
 .env
