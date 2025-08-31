@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: email-writer
-    env: java
-    rootDir: .
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
-    plan: free
