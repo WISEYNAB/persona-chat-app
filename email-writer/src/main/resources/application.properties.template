@@ -1,0 +1,11 @@
+spring.application.name=persona-chat
+gemini.api.key=${GEMINI_KEY}
+gemini.api.url=${GEMINI_URL}
+
+# Database config - Fixed JDBC URL format
+spring.datasource.url=jdbc:postgresql://dpg-d2pvt2v5r7bs73a51rqg-a.oregon-postgres.render.com:5432/persona_chat_db
+spring.datasource.username=persona_chat_db_user
+spring.datasource.password=1kn1mb7JX5MaB6SpwwL5uCfmmcgJNKok
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql=true
