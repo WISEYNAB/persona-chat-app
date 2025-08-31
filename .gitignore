@@ -1,7 +1,6 @@
 # Compiled class files
 *.class
-email-writer/target/
-*.jar
+
 *.war
 *.ear
 
@@ -18,8 +17,6 @@ email-writer/target/
 Thumbs.db
 
 # Application properties (contains secrets)
-../src/main/resources/application.properties
-../src/main/resources/application-*.properties
 
 # Environment files
 .env

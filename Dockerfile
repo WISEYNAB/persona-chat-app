@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy Maven wrapper and pom.xml first (for better caching)
 COPY mvnw .
 COPY .mvn .mvn
-COPY pom.xml .
+COPY email-writer/pom.xml .
 
 # Make Maven wrapper executable
 RUN chmod +x ./mvnw
